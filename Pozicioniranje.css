@@ -1,0 +1,49 @@
+body,a {
+		font-family: Tahoma;
+		color: #242424;
+} 
+header {
+	background-color: #F9966B;
+}
+ul {
+	list-style: none;
+}
+h1,
+nav ul li {
+		display: inline-block;
+}
+a {
+	text-decoration: none;
+	margin-right: 10px;
+}
+a:hover {
+	text-decoration:underline;
+}
+nav {
+	float: right;
+}
+ #board {
+ 		height: 200px;
+ 		position: fixed;
+ 		margin-top: 250px;
+ 		margin-left: 100px;
+ 		margin-right: 100px;
+ }
+ #label {
+	border: 1px solid #242424;
+	border-radius: 5px;
+	width: 200px;
+	padding: 20px;
+	position: relative;
+	float: left;
+	margin-right: 50px;
+}
+ #load {
+	width: 70px;
+	height: 70px;
+	background-color: #242424;
+	border-radius: 50%;
+	position: absolute;
+	top: -35px;
+	left: 85px;	
+}
